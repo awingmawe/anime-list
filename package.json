@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "homepage": "https://awingmawe.github.io/anime-list",
   "private": true,
+  "engines": {
+    "node": "10.17.0",
+    "npm": "6.11.3"
+},
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
