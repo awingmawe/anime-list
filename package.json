@@ -4,8 +4,8 @@
   "homepage": "https://awingmawe.github.io/anime-list",
   "private": true,
   "engines": {
-    "node": "10.17.0",
-    "npm": "6.11.3"
+    "node": "16.14.0",
+    "npm": "8.19.2"
 },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -23,8 +23,6 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
-     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
